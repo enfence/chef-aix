@@ -85,10 +85,10 @@ the package will be installed using nimclient command.
 You can change the detection procedure, if you specify 'type' attribute
 for the package resource. The following types are defined:
 
-    * rpm - RPM package
-    * emgr - emgr eFix (PTF)
-    * installp - LPP/BFF package
-    * nimclient - Package, located on a NIM server
+   * rpm - RPM package
+   * emgr - emgr eFix (PTF)
+   * installp - LPP/BFF package
+   * nimclient - Package, located on a NIM server
 
 During installation of efixes the old efixes are automatically removed.
 The same procedure is during updating of LPP packages - if the previous
